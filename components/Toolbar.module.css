@@ -1,0 +1,33 @@
+.root {
+    position: fixed;
+    width: 100%;
+    min-height: 71px;
+    display: flex;
+    padding: 13px 20px;
+    background: #F5F5F5;
+    border-bottom: 1px solid #DFDFE0;
+    margin-bottom: 11px;
+}
+
+.select {
+    display: flex;
+    flex: 1 0;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DFDFE0;
+    border-radius: 30px;
+    padding: 8px;
+    width: 100%;
+    margin: 0 1rem;
+    position: relative;
+}
+
+.select:after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 8px;
+    background: url("/arrow-drop.svg") no-repeat center center;
+    position: absolute;
+    right: 12px;
+}
