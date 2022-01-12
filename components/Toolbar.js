@@ -9,7 +9,7 @@ export default function Toolbar({ openMenu }) {
       <Button icon="/arrow.svg" />
       <Button icon="/home.svg" />
 
-      <Button icon="/avatar1.svg" caption={'johndoe.near'} className={styles.select} onClick={openMenu} />
+      <Button icon="/avatar1.svg" className={styles.select} onClick={openMenu}>johndoe.near</Button>
 
       <Button icon="/notification.svg" iconSize={26} />
       <Button icon="/settings.svg" iconSize={26} />

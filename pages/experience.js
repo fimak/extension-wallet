@@ -1,26 +1,19 @@
 import { useState } from 'react';
 import Toolbar from '../components/Toolbar';
 import AccountsMenu from '../components/Accounts/AccountsMenu';
-import Overlay from '../components/Overlay';
+import Modal from '../components/Modal/Modal';
 import styles from '../styles/Experience.module.sass';
 
 export default function Experience() {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const openMenu = () => {
-    setShowMenu(!showMenu);
-  };
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className={styles.root}>
-      <Toolbar openMenu={openMenu} />
+      <Toolbar openMenu={() => setIsOpen(true)} />
 
-      {showMenu && (
-        <>
-          <Overlay />
-          <AccountsMenu />
-        </>
-      )}
+      <Modal open={isOpen} setOpen={setIsOpen}>
+        <AccountsMenu />
+      </Modal>
 
       <div className={styles.content}>
 

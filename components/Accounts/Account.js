@@ -8,8 +8,8 @@ export default function Account({ user, active }) {
         <img src={user.avatar} />
       </div>
       <div className={styles.text}>
-        <p className={styles.name}>{user.name}</p>
-        <p className={styles.balance}>{user.balance} NEAR</p>
+        <div className={styles.name}>{user.name}</div>
+        <div className={styles.balance}>{user.balance} NEAR</div>
       </div>
       <div className={styles.checkbox_container}>
         <img src="/choosen-icon.svg" />
