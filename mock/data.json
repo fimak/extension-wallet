@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "John.near",
+      "balance": 0.15,
+      "avatar": "~/images/johndoe.svg"
+    },
+    {
+      "name": "mike.near",
+      "balance": 0.35,
+      "avatar": "~/images/mike.svg"
+    },
+    {
+      "name": "jhon.near",
+      "balance": 0.55,
+      "avatar": "~/images/jhon.svg"
+    }
+  ]
+}
