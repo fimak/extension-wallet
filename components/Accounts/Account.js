@@ -1,7 +1,8 @@
 import styles from '../Accounts/Accounts.module.sass';
 
 export default function Account({ user, active }) {
-  const chooseAccount = () => {};
+  const chooseAccount = () => {
+  };
   return (
     <div className={styles.root} onClick={chooseAccount}>
       <div className={styles.avatar}>
@@ -12,7 +13,7 @@ export default function Account({ user, active }) {
         <div className={styles.balance}>{user.balance} NEAR</div>
       </div>
       <div className={styles.checkbox_container}>
-        <img src="/choosen-icon.svg" />
+        <img src="/experience/chosen-icon.svg" />
       </div>
     </div>
   );

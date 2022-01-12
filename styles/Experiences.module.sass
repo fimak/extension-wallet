@@ -1,0 +1,87 @@
+.root
+  color: #DFDFE0
+
+.head
+  min-height: 71px
+
+.content
+  display: flex
+  flex-direction: column
+  padding: 12px 18px 18px
+  color: #414047
+
+.search_container
+  display: flex
+  margin-top: 71px
+
+.input_wrapper
+  position: relative
+  width: 100%
+
+.search_input
+  width: 100%
+  height: 40px
+  background-color: #F5F5F5
+  padding-left: 40px
+  border-radius: 10px
+  border: none
+  font-size: 16px
+  margin-left: 0
+  color: #33373B
+
+  &::placeholder
+    color: #BEBEC2
+
+.search_icon
+  position: absolute
+  left: 10px
+  top: 10px
+
+.vortex_wrapper
+  padding: 8px
+  margin-left: 8px
+
+.experiences_container
+  display: flex
+  flex-direction: column
+  margin-top: 21px
+  margin-bottom: 20px
+
+  & > p
+    font-size: 17px
+    margin-bottom: 3px
+
+.experiences_wrapper
+  display: flex
+  flex-wrap: wrap
+  @media screen and (min-width: 461px)
+    gap: 15px
+
+.categories_container
+  display: flex
+  flex-direction: column
+
+.categories_header
+  display: flex
+  justify-content: space-between
+
+  .title
+    line-height: 22px
+
+  .see_all
+    display: flex
+    align-items: center
+    color: #885FFF
+    cursor: pointer
+
+    & > img
+      padding-left: 12px
+
+.categories_wrapper
+  display: flex
+  flex-wrap: wrap
+  gap: 14px
+  margin-top: 15px
+
+.trending_container
+  margin-top: 20px

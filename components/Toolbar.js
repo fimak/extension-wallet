@@ -3,7 +3,6 @@ import Button from './Button';
 import styles from './Toolbar.module.sass';
 
 export default function Toolbar({ openMenu }) {
-
   return (
     <div className={styles.root}>
       <Button icon="/arrow.svg" />
