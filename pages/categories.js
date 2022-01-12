@@ -1,15 +1,15 @@
 import { useState } from 'react';
-import Toolbar from '../components/Toolbar';
+import Toolbar from '../components/Toolbar/Toolbar';
 import AccountsMenu from '../components/Accounts/AccountsMenu';
 import Modal from '../components/Modal/Modal';
-import Button from '../components/Button';
-import experiences from '../mock/experiences';
+import Button from '../components/Button/Button';
 import ExperienceItem from '../components/Expirience/ExpirienceItem';
-import categories from '../mock/categories';
 import Category from '../components/Expirience/Category';
-import styles from '../styles/Experiences.module.sass';
+import experiences from '../mock/experiences';
+import categories from '../mock/categories';
+import styles from '../styles/Categories.module.sass';
 
-export default function Experience() {
+export default function Categories() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -37,7 +37,7 @@ export default function Experience() {
           <p>Recent Experiences</p>
           <div className={styles.experiences_wrapper}>
             {
-              experiences.map((experience, index) => <ExperienceItem item={experience} key={index} />)
+              experiences.recent.map((experience, index) => <ExperienceItem item={experience} key={index} />)
             }
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Experience() {
           </div>
           <div className={styles.experiences_wrapper}>
             {
-              experiences.map((experience, index) => <ExperienceItem item={experience} key={index} />)
+              experiences.other.map((experience, index) => <ExperienceItem item={experience} key={index} />)
             }
           </div>
         </div>

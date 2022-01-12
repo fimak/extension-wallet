@@ -1,0 +1,25 @@
+<svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="mask0_7_2180" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="69" height="69">
+        <rect width="69" height="69" rx="10" fill="#C4C4C4"/>
+    </mask>
+    <g mask="url(#mask0_7_2180)">
+        <g filter="url(#filter0_d_7_2180)">
+            <rect width="69" height="69" rx="4" fill="#FF8B20"/>
+            <path d="M40.1061 30.571C40.1061 29.6486 40.8608 28.8939 41.7831 28.8939C42.7055 28.8939 43.4602 29.6486 43.4602 30.571C43.4602 31.4934 42.7055 32.248 41.7831 32.248C40.8608 32.248 40.1061 31.4934 40.1061 30.571ZM51.8456 26.3783V38.0675L47.1163 39.644L44.2988 49.0189H35.0748V45.6647H31.7206V49.0189H22.4967C22.4967 49.0189 18.304 34.8308 18.304 29.7324C18.304 24.6341 22.4296 20.5085 27.5279 20.5085H35.9134C37.4395 18.4792 39.8713 17.1543 42.6217 17.1543C44.0137 17.1543 45.1373 18.2779 45.1373 19.6699C45.1373 20.0221 45.0702 20.3408 44.9361 20.6426C44.7013 21.2128 44.5 21.8669 44.3994 22.5713L48.2064 26.3783H51.8456Z" fill="black" fill-opacity="0.37"/>
+            <rect x="25.8748" y="26.4502" width="11.5" height="3.45" rx="1.725" fill="white"/>
+            <circle cx="43.4123" cy="30.1878" r="2.0125" fill="white"/>
+        </g>
+    </g>
+    <defs>
+        <filter id="filter0_d_7_2180" x="-4" y="0" width="77" height="77" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_2180"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_2180" result="shape"/>
+        </filter>
+    </defs>
+</svg>
