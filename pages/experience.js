@@ -66,6 +66,11 @@ export default function Experience() {
               <img src="/experience/arrow-right-blue.svg" alt="arrow" />
             </span>
           </div>
+          <div className={styles.experiences_wrapper}>
+            {
+              experiences.map((experience, index) => <ExperienceItem item={experience} key={index} />)
+            }
+          </div>
         </div>
 
       </div>
